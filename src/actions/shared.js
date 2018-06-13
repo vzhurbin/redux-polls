@@ -5,7 +5,7 @@ import { authedUser, setAuthedUser } from './authedUser'
 
 const AUTHED_ID = 'dan_abramov'
 
-function handleInitialData() {
+export function handleInitialData() {
   return (dispatch) => {
     return getInitialData()
       .then(({ users, polls }) => {
