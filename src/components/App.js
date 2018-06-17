@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import LoadingBar from 'react-redux-loading'
 
 import { handleInitialData } from '../actions/shared'
 import Dashboard from "./Dashboard";
