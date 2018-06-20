@@ -1,8 +1,9 @@
+import { showLoading, hideLoading } from 'react-redux-loading'
+
 import { getInitialData } from '../utils/api';
 import { receiveUsers } from './users'
 import { receivePolls } from './polls'
 import { setAuthedUser } from './authedUser'
-import { showLoading, hideLoading } from 'react-redux-loading'
 
 const AUTHED_ID = 'dan_abramov'
 
