@@ -6,6 +6,7 @@ import { handleInitialData } from '../actions/shared'
 import Dashboard from "./Dashboard"
 import Leaderboard from './Leaderboard'
 import AddPoll from './AddPoll'
+import Poll from './Poll'
 
 class App extends Component {
   componentDidMount() {
@@ -18,7 +19,7 @@ class App extends Component {
         <LoadingBar />
         {this.props.loading === true
           ? null
-          : <AddPoll />}
+          : <Poll match={{ params: { id: 'xj352vofupe1dqz9emx13r' } }} />}
       </div>
     )
   }
